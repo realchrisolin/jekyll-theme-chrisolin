@@ -6,8 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Chris Olin"]
   spec.email         = ["contact@chrisolin.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Personal theme based off minima and midnight.}
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select do |f|
