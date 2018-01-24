@@ -6,7 +6,7 @@
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
 	{% if jekyll.environment == "production" %}
-	<div id="prodlabel">PRODUCTION!</div>
+	<div id="prodlabel">PRODUCTION! shortname: {{ disqus.shortname }}</div>
 	{% endif %}
 
     {% if page_paths %}
