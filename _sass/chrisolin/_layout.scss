@@ -18,6 +18,13 @@
   margin-bottom: 0;
   float: left;
 
+.site-desc {
+  @include relative-font-size(0.9375);
+  color: $grey-color;
+  margin-left: -$spacing-unit / 2;
+  @extend %clearfix;
+}
+
   &,
   &:visited {
     color: $grey-color-dark;
