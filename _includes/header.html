@@ -4,7 +4,6 @@
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
 	<a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }} | {{ site.description | escape }}</a>
-	<div class="site-desc"><br>{{ site.tagline | escape }}</br></div>
 
     {% if page_paths %}
       <nav class="site-nav">
@@ -29,5 +28,6 @@
         </div>
       </nav>
     {% endif %}
+	<div class="site-desc"><br>{{ site.tagline | escape }}</br></div>
   </div>
 </header>
