@@ -27,7 +27,9 @@
   @include relative-font-size(0.9375);
   color: $grey-color;
   float: left;
-  margin-left: -$spacing-unit / 2;
+  position: relative;
+  margin-top: -5%;
+  margin-right: 30%;
   @extend %clearfix;
 }
 
