@@ -1,15 +1,26 @@
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
-  <div class="wrapper">
+  <div class="footer wrapper">
+  	<div class="row">
+  		<div class="col-md-4">
+  			<small>Made with Open Source and <i class="glyphicon glyphicon-heart"></i></small>
+  		</div>
+  		<div class="col-md-4">
+  			<small>&copy; {{ 'now' | date: "%Y" }} Chris Olin. All rights reserved.</small>
+  		</div>
+  		<div class="col-md-4">
+  			<small>{% include social.html %}</small>
+  		</div>
+  	</div>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-		  {% include social.html %}
-      </div>
+  	<div class="row">
+  		<div class="col-md-4">
+  		</div>
+  		<div class="col-md-4">
+  			<small><a href="{{ site.baseurl }}/disclaimer/">Disclaimer</a></small>
+  		</div>
+  		<div class="col-md-4">
+  		</div>
 
-    </div>
-
-  </div>
-
-</footer>
+  </footer>
